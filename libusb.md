@@ -1,4 +1,4 @@
-搞了个STM32的Maple用，但是在win7 64位下有问题，装不上驱动，也没法上传数据。后来看到官方说推荐winXP上用，于是装了个XP虚拟机来用，还是不行。因为Maple国内用的很少，资料不多，找不到。最后还是在浏览官方论坛的时候偶尔看到这个解决方案。自己试过可行，也不用虚拟机了，直接win7下使用也可。 
+搞了类Arduino的STM32的开发板Maple在Win7下使用时dfu驱动装不上，导致上传程序会报错，找不到dfu设备。后来看到官方说推荐winXP上用，于是装了个XP虚拟机来用，还是不行。因为Maple国内用的很少，资料不多，找不到。最后还是在浏览官方论坛的时候偶尔看到这个解决方案。自己试过可行，也不用虚拟机了，直接win7下使用也可。  
 
 
 After getting pissed with this board not working correctly in Windows 7 64-bit with the default drivers, and then problems with a Windows XP 32-bit VM (VMWare) on Windows 7 64-bit (because it kept enumerating the device in the host machine), I tried Feyr's method. It works great!
